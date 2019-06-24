@@ -1,101 +1,111 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>My Test Page</title>
-        <link href="styles/style.css" rel="stylesheet">
-        <!-- <link href="jquery.dataTables.min.css" rel="stylesheet"> -->
-        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-        <script type="text/javascript" language="javascript" src="scripts/jquery-3.3.1.js"></script>
-        <script type="text/javascript" language="javascript" src="scripts/jquery.dataTables.min.js"></script>
+<html lang="en-US">
 
-        <link rel="stylesheet" type="text/css" href="DataTables/datatables.css">
-        <link rel="stylesheet" type="text/css" href="styles/jquery.dataTables.min.css">
- 
-        <script type="text/javascript" charset="utf8" src="DataTables/datatables.js"></script>
+<head>
+  <meta charset="utf8">
+  <meta name="author" content="Kevin Layos">
+  <meta name="description" content="This is a playground for going through Mozilla's Web Developer tutorial.">
+  <link rel="shortcut icon" href="open-iconic-master/png/headphones-2x.png">
+  <title>My Test Page</title>
+  <link href="styles/style.css" rel="stylesheet">
+  <!-- <link href="jquery.dataTables.min.css" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <script type="text/javascript" language="javascript" src="scripts/jquery-3.3.1.js"></script>
+  <script type="text/javascript" language="javascript" src="scripts/jquery.dataTables.min.js"></script>
 
-    </head>
-    <body>
-        <h1 class="example">A Tale of Two Jamokes</h1>
-        <p>This is <a href="https://en.wikipedia.org/wiki/Itsukushima_Shrine" title="Itsukushima Shrine" target="_blank">
-            Itsukushima Shrine!</a></p>
-        <img src="images/itsukushima-shrine.JPG" title="Try clickin on me!" alt="Itsukushima Shrine">
-        <p>This is a <strong><em>travel vlog</em></strong> of @luffyjr and @xteenifeasts</p>
-        <p>These are places we've visited</p>
-        <ul>
-            <li><a href="https://en.wikipedia.org/wiki/Japan" target="_blank">Japan 2017</a></li>
-            <li>Flordia 2017</li>
-            <li>Los Angeles 2018</li>
-        </ul>
-        <h2>My Table</h2>
-        <table id="mytable" class="display" style="width:100%">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Position</th>
-                    <th>Office</th>
-                    <th>Age</th>
-                    <th>Start date</th>
-                    <th>Salary</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <!-- <td class="details-control"></td> -->
-                    <td class="clickthis">Kevin Layos</td>
-                    <td>Programmer</td>
-                    <td>Philadelphia</td>
-                    <td>28</td>
-                    <td>2015/01/31</td>
-                    <td>$1,000,000</td>
-                </tr>
-                <tr>
-                    <td>Christina Vedar</td>
-                    <td>Chemist</td>
-                    <td>Tokyo</td>
-                    <td>27</td>
-                    <td>2011/07/25</td>
-                    <td>$1</td>
-                </tr>
-                <tr>
-                    <td>Ashton Cox</td>
-                    <td>Junior Technical Author</td>
-                    <td>San Francisco</td>
-                    <td>66</td>
-                    <td>2009/01/12</td>
-                    <td>$86,000</td>
-                </tr>
-                <tr>
-                    <td>Cedric Kelly</td>
-                    <td>Senior Javascript Developer</td>
-                    <td>Edinburgh</td>
-                    <td>22</td>
-                    <td>2012/03/29</td>
-                    <td>$433,060</td>
-                </tr>
-                <tr>
-                    <td>Airi Satou</td>
-                    <td>Accountant</td>
-                    <td>Tokyo</td>
-                    <td>33</td>
-                    <td>2008/11/28</td>
-                    <td>$162,700</td>
-                </tr>
-            </tbody>
-        </table>
-        <!-- This is just a blank line -->
-        <p></p>
-        <em>first</em><em>second</em><em>third</em>
-        <p>fourth</p><p>fifth</p><p>sixth</p>
-        <p>Testing Japanese characters!</p>
-        <ul>
-            <li>ひらがな</li>
-            <li>カタカナ</li>
-            <li>漢字</li>
-        </ul>
-        <button>Change User</button>
-        <input type="text" disabled>
-        <input type="text">
-        <script src="scripts/main.js"></script>
-    </body>
+  <link rel="stylesheet" type="text/css" href="DataTables/datatables.css">
+  <link rel="stylesheet" type="text/css" href="styles/jquery.dataTables.min.css">
+
+  <script type="text/javascript" charset="utf8" src="DataTables/datatables.js"></script>
+
+</head>
+
+<body>
+  <h1 class="example">A Tale of Two Jamokes</h1>
+  <p>This is <a href="https://en.wikipedia.org/wiki/Itsukushima_Shrine" title="Itsukushima Shrine" target="_blank">
+      Itsukushima Shrine!</a></p>
+  <img src="images/itsukushima-shrine.JPG" title="Try clickin on me!" alt="Itsukushima Shrine">
+  <p>This is a <strong><em>travel vlog</em></strong> of @luffyjr and @xteenifeasts</p>
+  <p>These are places we've visited</p>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/Japan" target="_blank">Japan 2017</a></li>
+    <li>Flordia 2017</li>
+    <li>Los Angeles 2018</li>
+  </ul>
+  <h2><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals" title="Next" target="_blank">
+    The Next Lesson</a></h2>
+  <h2>My Table</h2>
+  <table id="mytable" class="display" style="width:100%">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Office</th>
+        <th>Age</th>
+        <th>Start date</th>
+        <th>Salary</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- <td class="details-control"></td> -->
+        <td class="clickthis">Kevin Layos</td>
+        <td>Programmer</td>
+        <td>Philadelphia</td>
+        <td>28</td>
+        <td>2015/01/31</td>
+        <td>$1,000,000</td>
+      </tr>
+      <tr>
+        <td>Christina Vedar</td>
+        <td>Chemist</td>
+        <td>Tokyo</td>
+        <td>27</td>
+        <td>2011/07/25</td>
+        <td>$1</td>
+      </tr>
+      <tr>
+        <td>Ashton Cox</td>
+        <td>Junior Technical Author</td>
+        <td>San Francisco</td>
+        <td>66</td>
+        <td>2009/01/12</td>
+        <td>$86,000</td>
+      </tr>
+      <tr>
+        <td>Cedric Kelly</td>
+        <td>Senior Javascript Developer</td>
+        <td>Edinburgh</td>
+        <td>22</td>
+        <td>2012/03/29</td>
+        <td>$433,060</td>
+      </tr>
+      <tr>
+        <td>Airi Satou</td>
+        <td>Accountant</td>
+        <td>Tokyo</td>
+        <td>33</td>
+        <td>2008/11/28</td>
+        <td>$162,700</td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- This is just a blank line -->
+  <p></p>
+  <em>first</em><em>second</em><em>third</em>
+  <p>fourth</p>
+  <p>fifth</p>
+  <p>sixth</p>
+  <p>Testing Japanese characters!</p>
+  <ul>
+    <li>ひらがな</li>
+    <li>カタカナ</li>
+    <li>漢字</li>
+  </ul>
+  <button>Change User</button>
+  <input type="text" disabled>
+  <input type="text">
+  <script src="scripts/main.js"></script>
+</body>
+
 </html>
